@@ -18,14 +18,18 @@ function App() {
           element:<Home/>
         },
         {
-          path:'contacts',
+          path:'/contacts',
           element:<Contacts/>
         },
         {
-          path:'products',
+          path:'/products',
           element:<Products/>,
           
-        },{ path: "product", element: <Product /> },
+        },
+        { 
+          path: "/product", 
+          element: <Product /> 
+          },
         
           ]
         }
